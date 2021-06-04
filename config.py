@@ -14,4 +14,4 @@ class Config(object):
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['bartosz.drozd94@gmail.com', 'error.logger.test@gmail.com'] #mails which get the error messages
-    
+    POSTS_PER_PAGE = 25
