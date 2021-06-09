@@ -8,234 +8,234 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-06-09 16:29+0200\n"
-"PO-Revision-Date: 2021-06-09 16:33+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2021-06-09 23:19+0200\n"
 "Language: pl\n"
 "Language-Team: pl <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 3.0\n"
 
 #: app/__init__.py:20
 msgid "Please log in to access this page."
-msgstr ""
+msgstr "Zaloguj się, aby uzyskać dostęp do tej strony."
 
 #: app/email.py:22
 msgid "[Microblog] Reset Your Password"
-msgstr ""
+msgstr "[Microblog] Resetowanie hasła"
 
 #: app/forms.py:11 app/forms.py:18 app/forms.py:51
 msgid "Username"
-msgstr ""
+msgstr "Nazwa użytkownika"
 
 #: app/forms.py:12 app/forms.py:20 app/forms.py:43
 msgid "Password"
-msgstr ""
+msgstr "Hasło"
 
 #: app/forms.py:13
 msgid "Remember Me"
-msgstr ""
+msgstr "Zapamiętaj mnie"
 
 #: app/forms.py:14 app/templates/login.html:5
 msgid "Sign In"
-msgstr ""
+msgstr "Zaloguj się"
 
 #: app/forms.py:19 app/forms.py:38
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: app/forms.py:22 app/forms.py:45
 msgid "Repeat Password"
-msgstr ""
+msgstr "Powtórz hasło"
 
 #: app/forms.py:24 app/templates/register.html:5
 msgid "Register"
-msgstr ""
+msgstr "Zarejestruj się"
 
 #: app/forms.py:29 app/forms.py:64
 msgid "Please use a different username."
-msgstr ""
+msgstr "Proszę użyć innej nazwy użytkownika."
 
 #: app/forms.py:34
 msgid "Please use a different email address."
-msgstr ""
+msgstr "Proszę użyć innego adresu email."
 
 #: app/forms.py:39 app/forms.py:47
 msgid "Request Password Reset"
-msgstr ""
+msgstr "Resetuj hasło"
 
 #: app/forms.py:52
 msgid "About me"
-msgstr ""
+msgstr "O mnie"
 
 #: app/forms.py:54 app/forms.py:73
 msgid "Submit"
-msgstr ""
+msgstr "Wyślij"
 
 #: app/forms.py:72
 msgid "Say something"
-msgstr ""
+msgstr "Napisz coś"
 
 #: app/routes.py:30
 msgid "Your post is now live!"
-msgstr ""
+msgstr "Twój post został opublikowany!"
 
 #: app/routes.py:52
 msgid "Invalid username or password"
-msgstr ""
+msgstr "Nieprawidłowa nazwa użytkownika lub hasło"
 
 #: app/routes.py:78
 msgid "Congratulations, you are now a registered user!"
-msgstr ""
+msgstr "Gratulacje, jesteś zarejestrowanym użytkownikiem!"
 
 #: app/routes.py:107
 msgid "Your changes have been saved."
-msgstr ""
+msgstr "Twoje zmiany zostały zapisane."
 
 #: app/routes.py:123 app/routes.py:143
 msgid "User {} not found."
-msgstr ""
+msgstr "Użytkownik {} nie znaleziony."
 
 #: app/routes.py:126
 msgid "You cannot follow yourself!"
-msgstr ""
+msgstr "Nie możesz obserwować siebie!"
 
 #: app/routes.py:130
 msgid "You are following {}!"
-msgstr ""
+msgstr "Obserwujesz {}!"
 
 #: app/routes.py:146
 msgid "You cannot unfollow yourself!"
-msgstr ""
+msgstr "Nie możesz przestać obserwować swojego konta!"
 
 #: app/routes.py:150
 msgid "You are not following {}."
-msgstr ""
+msgstr "Nie obserwujesz już {}."
 
 #: app/routes.py:179
 msgid "Check your email for the instructions to reset your password"
-msgstr ""
+msgstr "Sprawdź swoją skrzynkę email w celu zresetowania swojego hasła"
 
 #: app/routes.py:196
 msgid "Your password has been reset."
-msgstr ""
+msgstr "Twoje hasło zostało zresetowane."
 
 #: app/templates/404.html:4
 msgid "Not Found"
-msgstr ""
+msgstr "Nie znaleziono"
 
 #: app/templates/404.html:5 app/templates/500.html:6
 msgid "Back"
-msgstr ""
+msgstr "Powrót"
 
 #: app/templates/500.html:4
 msgid "An unexpected error has occurred"
-msgstr ""
+msgstr "Wystąpił niespodziewany błąd"
 
 #: app/templates/500.html:5
 msgid "The administrator has been notified. Sorry for the inconvenience!"
-msgstr ""
+msgstr "Administrator został powiadomiony. Przepraszamy za problemy!"
 
 #: app/templates/_post.html:14
 #, python-format
 msgid "%(username)s said %(when)s"
-msgstr ""
+msgstr "%(username)s napisał/a %(when)s"
 
 #: app/templates/base.html:4
 msgid "Welcome to Microblog"
-msgstr ""
+msgstr "Witamy na Microblogu"
 
 #: app/templates/base.html:21
 msgid "Home"
-msgstr ""
+msgstr "Strona główna"
 
 #: app/templates/base.html:22
 msgid "Explore"
-msgstr ""
+msgstr "Przeglądaj"
 
 #: app/templates/base.html:26
 msgid "Login"
-msgstr ""
+msgstr "Logowanie"
 
 #: app/templates/base.html:28
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 #: app/templates/base.html:29
 msgid "Logout"
-msgstr ""
+msgstr "Wyloguj się"
 
 #: app/templates/edit_profile.html:5
 msgid "Edit Profile"
-msgstr ""
+msgstr "Edytuj profil"
 
 #: app/templates/index.html:5
 #, python-format
 msgid "Hi, %(username)s!"
-msgstr ""
+msgstr "Witaj, %(username)s!"
 
 #: app/templates/index.html:17 app/templates/user.html:41
 msgid "Newer posts"
-msgstr ""
+msgstr "Nowsze posty"
 
 #: app/templates/index.html:22 app/templates/user.html:46
 msgid "Older posts"
-msgstr ""
+msgstr "Starsze posty"
 
 #: app/templates/login.html:12
 msgid "New User?"
-msgstr ""
+msgstr "Nowy użytkownik?"
 
 #: app/templates/login.html:12
 msgid "Click to Register!"
-msgstr ""
+msgstr "Zarejestruj się!"
 
 #: app/templates/login.html:14
 msgid "Forgot Your Password?"
-msgstr ""
+msgstr "Zapomniałeś hasła?"
 
 #: app/templates/login.html:15
 msgid "Click to Reset It"
-msgstr ""
+msgstr "Kliknij, aby zresetować "
 
 #: app/templates/reset_password.html:5
 msgid "Reset Your Password"
-msgstr ""
+msgstr "Zresetuj swoje hasło"
 
 #: app/templates/reset_password_request.html:5
 msgid "Reset Password"
-msgstr ""
+msgstr "Resetowanie hasła"
 
 #: app/templates/user.html:8
 msgid "User"
-msgstr ""
+msgstr "Użytkownik"
 
 #: app/templates/user.html:11
 msgid "Last seen on"
-msgstr ""
+msgstr "Ostatnio online"
 
 #: app/templates/user.html:13
 #, python-format
 msgid "%(count)d followers"
-msgstr ""
+msgstr "%(count)d obserwujących"
 
 #: app/templates/user.html:13
 #, python-format
 msgid "%(count)d following"
-msgstr ""
+msgstr "%(count)d obserwuje"
 
 #: app/templates/user.html:15
 msgid "Edit your profile"
-msgstr ""
+msgstr "Edytuj profil"
 
 #: app/templates/user.html:20
 msgid "Follow"
-msgstr ""
+msgstr "Obserwuj"
 
 #: app/templates/user.html:27
 msgid "Unfollow"
-msgstr ""
-
+msgstr "Przestań obserwować"
