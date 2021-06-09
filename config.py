@@ -15,3 +15,4 @@ class Config(object):
     ADMINS = ['bartosz.drozd94@gmail.com', 'error.logger.test@gmail.com'] #mails which get the error messages
     POSTS_PER_PAGE = 25
     LANGUAGES = ['en', 'es', 'de', 'pl']
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
